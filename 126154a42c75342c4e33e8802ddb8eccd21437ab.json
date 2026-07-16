@@ -592,7 +592,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.38770103812852846,
   "nr_feature": 47463,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "median_abs_log2_fc_error_spike_ins": 0.2673939022512304,
   "nr_quantified_spike_ins": 23711,
   "dynamic_range_human_plasma": 2.2572401454706954,
@@ -609,8 +609,10 @@
   "max_fragment_mz": 2000,
   "quantification_method": "QuantUMS high-precision",
   "protein_inference": "Genes",
-  "abundance_normalization_ions": "Cross-run normalization",
-  "predictors_library": NaN,
+  "abundance_normalization_ions": "RT-dependent normalization",
+  "predictors_library": "User defined speclib",
   "scan_window": 7,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "\n\n ### Parameter changes detected:\n- **enzyme**: `cut` \u2192 `Trypsin/P`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n- **max_mods**: `None` \u2192 `nan`\n- **ident_fdr_protein**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/126154a42c75342c4e33e8802ddb8eccd21437ab/"
 }

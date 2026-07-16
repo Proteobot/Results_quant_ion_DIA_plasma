@@ -592,7 +592,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.29694441434604796,
   "nr_feature": 20372,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "median_abs_log2_fc_error_spike_ins": 0.24076730687913284,
   "nr_quantified_spike_ins": 15042,
   "dynamic_range_human_plasma": 2.4461772149072507,
@@ -609,12 +609,10 @@
   "max_fragment_mz": 2000,
   "quantification_method": "QuantUMS high-precision",
   "protein_inference": "Genes",
-  "abundance_normalization_ions": "Cross-run normalization",
-  "predictors_library": {
-    "RT": "DIANN",
-    "IM": "DIANN",
-    "MS2_int": "DIANN"
-  },
+  "abundance_normalization_ions": "RT-dependent normalization",
+  "predictors_library": "DIANN",
   "scan_window": 7,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "\n\n ### Parameter changes detected:\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/e18fac2ebd4012accd253692c8465a6bf63d7c9c/"
 }
