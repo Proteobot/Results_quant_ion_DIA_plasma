@@ -592,7 +592,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.28187145964673577,
   "nr_feature": 19488,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.17.0",
   "median_abs_log2_fc_error_spike_ins": 0.24763376195725784,
   "nr_quantified_spike_ins": 14176,
   "dynamic_range_human_plasma": 2.3075320383182456,
@@ -609,8 +609,10 @@
   "max_fragment_mz": 2000,
   "quantification_method": "QuantUMS high-precision",
   "protein_inference": "Genes",
-  "abundance_normalization_ions": "Cross-run normalization",
-  "predictors_library": NaN,
+  "abundance_normalization_ions": "RT-dependent normalization",
+  "predictors_library": "User defined speclib",
   "scan_window": 7,
+  "postprocessing_performed": false,
+  "postprocessing_description": NaN,
   "submission_comments": "\n\n ### No parameter changes detected. \n\n\n### Automated submission checks\n0 item(s) to review and 1 note(s) were flagged for reviewer attention (these do not block submission).\n- Could not re-standardize the results for validation (ValueError: Columns {'Modified.Sequence', 'Protein.Ids', 'Precursor.Charge', 'Run', 'Precursor.Quantity'} not found in input dataframe. Please check input file and selected software tool.); protein/charge/length checks were skipped.\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/7ebb9760239311e6db8033d4309ea8dde1482321/"
 }
